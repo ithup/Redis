@@ -1,0 +1,10 @@
+redis学习：
+	1.redis安装目录：/etc/redis
+	2.redis的服务启动：三种方法启动Redis:默认配置、运行配置、配置文件启动（推荐）
+				默认配置：redis-server
+				配置文件启动：
+					
+	3.redis命令行登录客服端：redis-cli -p 6379
+		   关闭：shutdown
+		   退出连接：exit
+	4.查看当前redis连接状态：ps -ef|grep redis
